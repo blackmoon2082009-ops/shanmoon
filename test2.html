@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Happy Birthday Website 2.0 | Aoudumber Bade">
+    <meta name="github" content="https://github.com/Aoudumber-Bade">
+    <title>Mehwish Birthday</title>
+    <link rel="stylesheet" href="test1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!-- Scratch Card Overlay -->
+<div id="scratch-container">
+    <canvas id="scratchCard"></canvas>
+
+    <div class="scratch-content">
+        <h2>🎁 Scratch to Reveal 🎉</h2>
+        <p>Special surprise for Mehwish 💖</p>
+    </div>
+</div>
+    <div id="wrapper">
+        <div class="flag__birthday">
+            <img src="./images/1.png" alt="" width="350" class="flag__left">
+            <img src="./images/1.png" alt="" width="350" class="flag__right">
+        </div>
+        <div class="content">
+            <div class="left">
+                <div class="title">
+                    <h1 class="happy">
+                        <span style="--t: 4s;">H</span>
+                        <span style="--t: 4.2s;">a</span>
+                        <span style="--t: 4.4s;">p</span>
+                        <span style="--t: 4.6s;">p</span>
+                        <span style="--t: 4.8s;">y</span>
+                    </h1>
+                    <h1 class="birthday">
+                        <span style="--t: 5s;">B</span>
+                        <span style="--t: 5.2s;">i</span>
+                        <span style="--t: 5.4s;">r</span>
+                        <span style="--t: 5.6s;">t</span>
+                        <span style="--t: 5.8s;">h</span>
+                        <span style="--t: 6s;">d</span>
+                        <span style="--t: 6.2s;">a</span>
+                        <span style="--t: 6.4s;">y</span>
+                    </h1>
+                    <div class="hat">
+                        <img src="./images/hat.png" alt="" width="130">
+                    </div>
+                </div>
+                <div class="date__of__birth">
+                    <span></span>
+                </div>
+                <div class="btn">
+                    <button id="btn__letter">
+                        <div class="mail">
+                            Click Here Mehwish
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                    </button>
+
+                </div>
+            </div>
+            <div class="right">
+                <div class="box__account">
+                    <div class="image slider">
+    <img src="./images/photo1.jpg" class="active" alt="">
+    <img src="C:\Users\Shanj\OneDrive\Pictures\New folder\mine\IMG_20260130_212733.jpg" alt="">
+    <img src="C:\Users\Shanj\OneDrive\Pictures\New folder\mine\IMG_20260507_203014.jpg" alt="">
+    <img src="C:\Users\Shanj\OneDrive\Pictures\New folder\mine\Screenshot_20251215-155053.png" alt="">
+</div>
+                    <div class="name">
+                        <i class="fa-solid fa-heart"></i>
+                        <span>Dear Mehwish</span>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="balloon_one">
+                        <img width="100px" src="./images/balloon1.png" alt="">
+                    </div>
+                    <div class="balloon_two">
+                        <img width="100px" src="./images/balloon2.png" alt="">
+                    </div>
+                </div>
+                <div class="cricle">
+                    <div class="text__cricle">
+                        <span style="--i: 1;">h</span>
+                        <span style="--i: 2;">a</span>
+                        <span style="--i: 3;">p</span>
+                        <span style="--i: 4;">p</span>
+                        <span style="--i: 5;">y</span>
+                        <span style="--i: 6;">-</span>
+                        <span style="--i: 7;">b</span>
+                        <span style="--i: 8;">i</span>
+                        <span style="--i: 9;">r</span>
+                        <span style="--i: 10;">t</span>
+                        <span style="--i: 11;">h</span>
+                        <span style="--i: 12;">d</span>
+                        <span style="--i: 13;">a</span>
+                        <span style="--i: 14;">y</span>
+                        <span style="--i: 15;">-</span>
+                    </div>
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+            </div>
+        </div>
+        <div class="decorate_star star1" style="--t: 15s;"></div>
+        <div class="decorate_star star2" style="--t: 15.2s;"></div>
+        <div class="decorate_star star3" style="--t: 15.4s;"></div>
+        <div class="decorate_star star4" style="--t: 15.6s;"></div>
+        <div class="decorate_star star5" style="--t: 15.8s;"></div>
+        <div class="decorate_flower--one" style="--t: 15s;">
+            <img width="20" src="./images/decorate_flower.png" alt="">
+        </div>
+        <div class="decorate_flower--two" style="--t: 15.3s;">
+            <img width="20" src="./images/decorate_flower.png" alt="">
+        </div>
+        <div class="decorate_flower--three" style="--t: 15.6s;">
+            <img width="20" src="./images/decorate_flower.png" alt="">
+        </div>
+        <div class="decorate_bottom">
+            <img src="./images/decorate.png" alt="" width="100">
+        </div>
+        <div class="smiley__icon">
+            <img src="./images/smiley_icon.png" alt="" width="100">
+        </div>
+        <div class="boxMail">
+            <i class="fa-solid fa-xmark"></i>
+            <div class="boxMail-container">
+                <div class="card1">
+                    <div class="userImg">
+                        <img src="images/unnamed.png" alt="">
+                    </div>
+                    <h4 class="username">To: Mehwish 💖<span class="underline"></span></h4>
+
+                    <h3>Happy Birthday</h3>
+                    <div class="imageCute">
+                        <img src="cute1.png" alt="">
+                    </div>
+                </div>
+                <div class="card2">
+                    <div class="card2-content">
+                        <h3>To You!</h3>
+                        <h2>Happy birthday 🥳🎂🥳 chanda the day you come into my life I was not really much attached to
+                            you but day by day you became close to my heart . And now you are truly my younger sister. I
+                            wish I could remove some of the pain from your life which you are bearing alone. But you're
+                            always welcome 🤗 you can talk anytime you want to talk specially those which you can't say
+                            to others. And this year your all dreams come true . I wish that your
+                            brother could wish you but if couldn't wish on him behalf I am wishing you happy birthday
+                            🎈🎂🎈 sana . Don't be Sad ok be happy 😌
+                        </h2>
+
+                        <div class="imageCute2">
+                            <img src="cute2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+    let datetxt = "27 May";
+    let datatxtletter = "My love. You are a very special girl. I always silently thank you for coming into my life. Today, I wish you all the best, lots of health, and lots of joy. I always hope we will celebrate many more birthdays like this together. Happy birthday to you.💕";
+    let titleLetter = "To you";
+    let charArrDate = datetxt.split('');
+    let charArrDateLetter = datatxtletter.split('');
+    let charArrTitle = titleLetter.split('');
+    let currentIndex = 0;
+    let currentIndexLetter = 0;
+    let currentIndexTitle = 0;
+    let date__of__birth = document.querySelector(".date__of__birth span");
+    let text__letter = document.querySelector(".text__letter p");
+    setTimeout(function () {
+        timeDatetxt = setInterval(function () {
+            if (currentIndex < charArrDate.length) {
+                date__of__birth.textContent += charArrDate[currentIndex];
+                currentIndex++;
+            }
+            else {
+                let i = document.createElement("i");
+                i.className = "fa-solid fa-star"
+                document.querySelector(".date__of__birth").prepend(i)
+                document.querySelector(".date__of__birth").appendChild(i.cloneNode(true))
+                clearInterval(timeDatetxt)
+            }
+        }, 100)
+    }, 12000)
+
+    var intervalContent;
+    var intervalTitle;
+    $("#btn__letter").on("click", function () {
+        $(".box__letter").slideDown()
+        setTimeout(function () {
+            $(".letter__border").slideDown();
+        }, 1000)
+        setTimeout(function () {
+            intervalTitle = setInterval(function () {
+                if (currentIndexTitle < charArrTitle.length) {
+                    document.querySelector(".title__letter").textContent += charArrTitle[currentIndexTitle];
+                    let i = document.createElement("i");
+                    i.className = "fa-solid fa-heart"
+                    document.querySelector(".title__letter").appendChild(i)
+                    currentIndexTitle++;
+                }
+                else {
+                    clearInterval(intervalTitle)
+                }
+            }, 100)
+        }, 2000)
+        setTimeout(function () {
+            document.querySelector("#heart__letter").classList.add("animationOp");
+            document.querySelector(".love__img").classList.add("animationOp");
+            document.querySelector("#mewmew").classList.add("animationOp");
+        }, 2800)
+        setTimeout(function () {
+            document.querySelectorAll(".heart").forEach((item) => {
+                item.classList.add("animation")
+            })
+        }, 3500)
+        setTimeout(function () {
+            intervalContent = setInterval(function () {
+                if (currentIndexLetter < charArrDateLetter.length) {
+                    text__letter.textContent += charArrDateLetter[currentIndexLetter];
+                    currentIndexLetter++;
+                }
+                else {
+                    clearInterval(intervalContent)
+                }
+            }, 50)
+        }, 6000)
+    })
+    $(".close").on("click", function () {
+        clearInterval(intervalContent)
+        document.querySelector(".title__letter").textContent = "";
+        text__letter.textContent = "";
+        currentIndexLetter = 0
+        currentIndexTitle = 0
+        document.querySelector("#heart__letter").classList.remove("animationOp");
+        document.querySelector(".love__img").classList.remove("animationOp");
+        document.querySelector("#mewmew").classList.remove("animationOp");
+        document.querySelectorAll(".heart").forEach((item) => {
+            item.classList.remove("animation")
+        })
+        $(".box__letter").slideUp();
+        $(".letter__border").slideUp();
+    })
+
+
+
+    let mailBox = document.querySelector('.mail')
+    let boxmail = document.querySelector('.boxMail')
+    var close = document.querySelector('.fa-xmark')
+    mailBox.onclick = function () {
+        mailBox.classList.toggle('active')
+        boxmail.classList.add('active')
+    }
+
+    close.addEventListener('click', function () {
+        boxmail.classList.remove('active')
+    })
+// Profile Picture Slideshow Animation
+let slides = document.querySelectorAll('.image.slider img');
+let slideIndex = 0;
+
+setInterval(() => {
+    slides[slideIndex].classList.remove('active');
+
+    slideIndex = (slideIndex + 1) % slides.length;
+
+    slides[slideIndex].classList.add('active');
+}, 2500);
+
+// ===== SCRATCH CARD =====
+
+const canvas = document.getElementById("scratchCard");
+const ctx = canvas.getContext("2d");
+
+function setupScratchCard() {
+
+    canvas.width = canvas.offsetWidth;
+    canvas.height = canvas.offsetHeight;
+
+    // Background Layer
+    const gradient = ctx.createLinearGradient(0,0,canvas.width,canvas.height);
+
+    gradient.addColorStop(0,"#ff4d6d");
+    gradient.addColorStop(1,"#ff85a2");
+
+    ctx.fillStyle = gradient;
+    ctx.fillRect(0,0,canvas.width,canvas.height);
+
+    // Text
+    ctx.fillStyle = "white";
+    ctx.font = "bold 22px Poppins";
+    ctx.textAlign = "center";
+
+    ctx.fillText(
+        "Scratch ❤️",
+        canvas.width/2,
+        canvas.height/2
+    );
+}
+
+setupScratchCard();
+
+let isDrawing = false;
+
+function scratch(x,y){
+
+    const rect = canvas.getBoundingClientRect();
+
+    ctx.globalCompositeOperation = "destination-out";
+
+    ctx.beginPath();
+
+    ctx.arc(
+        x - rect.left,
+        y - rect.top,
+        18,
+        0,
+        Math.PI * 2
+    );
+
+    ctx.fill();
+}
+
+/* PC */
+
+canvas.addEventListener("mousedown",()=>{
+    isDrawing = true;
+});
+
+canvas.addEventListener("mouseup",()=>{
+    isDrawing = false;
+});
+
+canvas.addEventListener("mousemove",(e)=>{
+    if(!isDrawing) return;
+
+    scratch(e.clientX,e.clientY);
+});
+
+/* MOBILE */
+
+canvas.addEventListener("touchstart",()=>{
+    isDrawing = true;
+});
+
+canvas.addEventListener("touchend",()=>{
+    isDrawing = false;
+});
+
+canvas.addEventListener("touchmove",(e)=>{
+
+    e.preventDefault();
+
+    if(!isDrawing) return;
+
+    const touch = e.touches[0];
+
+    scratch(touch.clientX,touch.clientY);
+
+},{passive:false});
+// ================= HIDE WEBSITE INITIALLY =================
+
+const wrapper = document.getElementById("wrapper");
+
+wrapper.style.display = "none";
+
+// ================= SCRATCH PERCENT CHECK =================
+
+function checkScratchProgress() {
+
+    const imageData = ctx.getImageData(
+        0,
+        0,
+        canvas.width,
+        canvas.height
+    );
+
+    const pixels = imageData.data;
+
+    let cleared = 0;
+
+    for(let i = 3; i < pixels.length; i += 4){
+
+        if(pixels[i] === 0){
+            cleared++;
+        }
+    }
+
+    const percent =
+        (cleared / (pixels.length / 4)) * 100;
+
+    // If scratched more than 35%
+    if(percent > 35){
+
+        // Fade scratch card
+        document.getElementById(
+            "scratch-container"
+        ).style.transition = "0.8s";
+
+        document.getElementById(
+            "scratch-container"
+        ).style.opacity = "0";
+
+        // Show birthday section
+        wrapper.style.display = "block";
+
+        setTimeout(()=>{
+
+            document.getElementById(
+                "scratch-container"
+            ).remove();
+
+        },800);
+
+        clearInterval(scratchChecker);
+    }
+}
+
+// Check every second
+const scratchChecker =
+    setInterval(checkScratchProgress,1000);
+</script>
+
+</html>
